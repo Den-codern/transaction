@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyALXNOYAbH6hf5kVXFj4WU53u_-MUQHsM8",
+    authDomain: "react-transaction.firebaseapp.com",
+    projectId: "react-transaction",
+    storageBucket: "react-transaction.appspot.com",
+    messagingSenderId: "754820632997",
+    appId: "1:754820632997:web:6dc0ee70b3f5957938184c",
+    measurementId: "G-RY9Z3XDWHX"
+  };
+  
+  firebase.initializeApp(firebaseConfig);
+  
